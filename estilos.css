@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(221, 219, 223);
+}
+
+#encabezado {
+    border: solid 1px;
+    background: rgb(17, 223, 255)  ;
+    height: 120px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-banner{
+   /* border:solid red; Ponemos  solo para 
+   observar el borde del bloque, luego lo quitamos*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+#imglogo{
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+
+}
+
+#text-banner{
+    font-size: 50px;
+    margin-right: 30px;
+    color: rgb(4, 42, 123);
+    text-decoration: none;
+}
+
+#nav{
+    /*border: solid white; solo lo ponemos temporalmente*/
+    
+    /*El centrado lo realizo al estar trabajando los 
+    enlaces en el selector a */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#nav ul{
+    list-style: none;
+}
+
+#nav ul li{
+    
+    display: inline-block;
+}
+
+#nav ul li a{
+    color: rgb(61, 28, 159);
+    font-size: 30px;
+    text-decoration: none;
+    
+    padding: 15px 30px;
+transition: all 0.5s ease;
+}
+
+#nav ul li a:hover{
+    border-bottom: solid 1px;
+    color:  rgb(57, 53, 52);
+    
+    
+}
+
